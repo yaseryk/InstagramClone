@@ -11,8 +11,20 @@
 		4344029326134AFA00440B12 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4344029226134AFA00440B12 /* SceneDelegate.swift */; };
 		4344029526134AFA00440B12 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4344029426134AFA00440B12 /* ViewController.swift */; };
 		4344029826134AFA00440B12 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4344029626134AFA00440B12 /* Main.storyboard */; };
-		4344029A26134AFE00440B12 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4344029926134AFE00440B12 /* Assets.xcassets */; };
 		4344029D26134AFE00440B12 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4344029B26134AFE00440B12 /* LaunchScreen.storyboard */; };
+		434402B026134E4B00440B12 /* MainTabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434402AF26134E4B00440B12 /* MainTabController.swift */; };
+		434402B42613500800440B12 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434402B32613500800440B12 /* FeedViewController.swift */; };
+		434402B72613502E00440B12 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434402B62613502E00440B12 /* ProfileViewController.swift */; };
+		434402BA2613503E00440B12 /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434402B92613503E00440B12 /* NotificationViewController.swift */; };
+		434402BD2613505500440B12 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434402BC2613505500440B12 /* SearchViewController.swift */; };
+		434402C02613508B00440B12 /* ImageSelectorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434402BF2613508B00440B12 /* ImageSelectorViewController.swift */; };
+		434402C426135F9B00440B12 /* FeedCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434402C326135F9B00440B12 /* FeedCollectionViewCell.swift */; };
+		434402C7261361F400440B12 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434402C6261361F400440B12 /* Extensions.swift */; };
+		436BC8CD2614EF3400CFA779 /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436BC8CC2614EF3400CFA779 /* RegistrationViewController.swift */; };
+		436BC8D02614EF5D00CFA779 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436BC8CF2614EF5D00CFA779 /* LoginViewController.swift */; };
+		436BC8D42615047100CFA779 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 436BC8D32615047100CFA779 /* Assets.xcassets */; };
+		436BC8D7261511B900CFA779 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436BC8D6261511B900CFA779 /* CustomTextField.swift */; };
+		436BC8DA2615A3F800CFA779 /* AuthenticationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436BC8D92615A3F800CFA779 /* AuthenticationViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,9 +33,21 @@
 		4344029226134AFA00440B12 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		4344029426134AFA00440B12 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4344029726134AFA00440B12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		4344029926134AFE00440B12 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4344029C26134AFE00440B12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4344029E26134AFE00440B12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		434402AF26134E4B00440B12 /* MainTabController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabController.swift; sourceTree = "<group>"; };
+		434402B32613500800440B12 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		434402B62613502E00440B12 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		434402B92613503E00440B12 /* NotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
+		434402BC2613505500440B12 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		434402BF2613508B00440B12 /* ImageSelectorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSelectorViewController.swift; sourceTree = "<group>"; };
+		434402C326135F9B00440B12 /* FeedCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCollectionViewCell.swift; sourceTree = "<group>"; };
+		434402C6261361F400440B12 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		436BC8CC2614EF3400CFA779 /* RegistrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
+		436BC8CF2614EF5D00CFA779 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		436BC8D32615047100CFA779 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		436BC8D6261511B900CFA779 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		436BC8D92615A3F800CFA779 /* AuthenticationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +80,83 @@
 		4344028F26134AFA00440B12 /* InstagramClone */ = {
 			isa = PBXGroup;
 			children = (
+				434402AC26134C3B00440B12 /* Services */,
+				434402A926134B7200440B12 /* Model */,
+				434402A826134B7000440B12 /* View */,
+				434402A526134B6600440B12 /* ViewModel */,
+				434402AB26134C2800440B12 /* Controller */,
+				434402AA26134C1B00440B12 /* Utils */,
 				4344029026134AFA00440B12 /* AppDelegate.swift */,
 				4344029226134AFA00440B12 /* SceneDelegate.swift */,
 				4344029426134AFA00440B12 /* ViewController.swift */,
 				4344029626134AFA00440B12 /* Main.storyboard */,
-				4344029926134AFE00440B12 /* Assets.xcassets */,
 				4344029B26134AFE00440B12 /* LaunchScreen.storyboard */,
+				436BC8D32615047100CFA779 /* Assets.xcassets */,
 				4344029E26134AFE00440B12 /* Info.plist */,
 			);
 			path = InstagramClone;
+			sourceTree = "<group>";
+		};
+		434402A526134B6600440B12 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				436BC8D92615A3F800CFA779 /* AuthenticationViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		434402A826134B7000440B12 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				434402C326135F9B00440B12 /* FeedCollectionViewCell.swift */,
+				436BC8D6261511B900CFA779 /* CustomTextField.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		434402A926134B7200440B12 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		434402AA26134C1B00440B12 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				434402C6261361F400440B12 /* Extensions.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		434402AB26134C2800440B12 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				436BC8CB2614EECB00CFA779 /* Auth */,
+				434402AF26134E4B00440B12 /* MainTabController.swift */,
+				434402B32613500800440B12 /* FeedViewController.swift */,
+				434402BC2613505500440B12 /* SearchViewController.swift */,
+				434402BF2613508B00440B12 /* ImageSelectorViewController.swift */,
+				434402B92613503E00440B12 /* NotificationViewController.swift */,
+				434402B62613502E00440B12 /* ProfileViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		434402AC26134C3B00440B12 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		436BC8CB2614EECB00CFA779 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				436BC8CC2614EF3400CFA779 /* RegistrationViewController.swift */,
+				436BC8CF2614EF5D00CFA779 /* LoginViewController.swift */,
+			);
+			path = Auth;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,7 +217,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4344029D26134AFE00440B12 /* LaunchScreen.storyboard in Resources */,
-				4344029A26134AFE00440B12 /* Assets.xcassets in Resources */,
+				436BC8D42615047100CFA779 /* Assets.xcassets in Resources */,
 				4344029826134AFA00440B12 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,8 +229,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				436BC8D7261511B900CFA779 /* CustomTextField.swift in Sources */,
+				434402B72613502E00440B12 /* ProfileViewController.swift in Sources */,
 				4344029526134AFA00440B12 /* ViewController.swift in Sources */,
+				434402C426135F9B00440B12 /* FeedCollectionViewCell.swift in Sources */,
+				434402BD2613505500440B12 /* SearchViewController.swift in Sources */,
 				4344029126134AFA00440B12 /* AppDelegate.swift in Sources */,
+				436BC8DA2615A3F800CFA779 /* AuthenticationViewModel.swift in Sources */,
+				434402BA2613503E00440B12 /* NotificationViewController.swift in Sources */,
+				436BC8CD2614EF3400CFA779 /* RegistrationViewController.swift in Sources */,
+				434402C02613508B00440B12 /* ImageSelectorViewController.swift in Sources */,
+				434402B42613500800440B12 /* FeedViewController.swift in Sources */,
+				434402B026134E4B00440B12 /* MainTabController.swift in Sources */,
+				434402C7261361F400440B12 /* Extensions.swift in Sources */,
+				436BC8D02614EF5D00CFA779 /* LoginViewController.swift in Sources */,
 				4344029326134AFA00440B12 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
